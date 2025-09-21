@@ -1,6 +1,9 @@
 .greeting {
   font-size: 2.5rem;
-  color: var(--accent-colour);
+
+  background-image: linear-gradient(to right, var(--accent-colour), var(--accent-colour-gradient));
+  color: transparent;
+  background-clip: text;
 }
 
 .next-text {
@@ -23,4 +26,35 @@
 
 .next-btn:hover {
   opacity: 0.5;
+}
+
+.nav {
+  position: absolute;
+  top: 5px;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-self: center;
+
+  list-style-type: none;
+
+  padding: 5px;
+  border-radius: 10px;
+  background-color: var(--crust-colour);
+}
+
+.nav li {
+  padding: 5px;
+}
+
+.nav li a {
+  color: var(--text-colour);
+}
+
+.github-accented {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: var(--accent-colour);
+  color: var(--text-colour);
 }

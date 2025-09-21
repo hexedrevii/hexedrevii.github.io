@@ -9,7 +9,8 @@
 }
 
 html, body {
-  background-color: var(--background-colour);
+  /* background-color: var(--background-colour); */
+  background-image: linear-gradient(45deg, var(--background-colour), var(--background-colour-gradient));
 
   color: var(--text-colour);
   font-family: Adwaita;
@@ -24,10 +25,12 @@ html, body {
 
 :root {
   --background-colour: #222831;
+  --background-colour-gradient: #1B262C;
   --crust-colour: #393E46;
   --text-colour: #EEEEEE;
 
   --accent-colour: #E9B3FB;
+  --accent-colour-gradient: #E45A92;
 }
 
 a {
