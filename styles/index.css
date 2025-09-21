@@ -1,6 +1,25 @@
+@font-face {
+  font-family: Adwaita;
+  src: url(/assets/AdwaitaSans-Regular.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
+}
+
+html, body {
+  background-color: var(--background-colour);
+
+  color: var(--text-colour);
+  font-family: Adwaita;
+  font-size: 21px;
+
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  padding: 0 1em;
+  line-height: 1.4;
 }
 
 :root {
@@ -8,10 +27,30 @@
   --crust-colour: #393E46;
   --text-colour: #EEEEEE;
 
-  --accent-colour: #F2BED1;
+  --accent-colour: #E9B3FB;
 }
 
-html {
-  background-color: var(--background-colour);
-  color: var(--text-colour);
+a {
+  text-decoration: none;
+}
+
+section  {
+  min-height: 100vh;
+}
+
+.centre {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.accent {
+  color: var(--accent-colour);
 }
