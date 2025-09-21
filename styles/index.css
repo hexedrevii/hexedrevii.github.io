@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --background-colour: #222831;
+  --crust-colour: #393E46;
+  --text-colour: #EEEEEE;
+
+  --accent-colour: #F2BED1;
+}
+
+html {
+  background-color: var(--background-colour);
+  color: var(--text-colour);
+}
