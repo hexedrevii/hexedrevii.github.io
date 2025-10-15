@@ -1,0 +1,38 @@
+.holder {
+  margin: 1.5rem;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.card {
+  background-color: var(--crust-colour);
+  padding: 5px;
+
+  border-radius: 15px;
+
+  width: 300px;
+  min-height: 100px;
+
+  opacity: 0.8;
+
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  color: var(--accent-colour);
+
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.card-desc {
+  /* Gap between title and description */
+  margin-top: 15px;
+
+  font-size: 16px;
+  padding: 5px;
+}
